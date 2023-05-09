@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: moccasin;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+output {
+  margin: 0 auto;
+}
+
+div {
+  overflow: auto;
+  position: absolute;
+  /* bottom: 500px; */
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+  margin-top: 200px;
+}
+
+ul {
+  margin: 0;
+}
+
